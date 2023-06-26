@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Turma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cad-turma-inc-adm.css">
+</head>
+<header>
+  <div class="logo">  <!--cabecalho do site-->
+      <img src="../img/logoeducati.png" alt="logo Educati">
+  </div>
+  <nav>
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="../pag/login_prof.html">Professor</a></li>
+        <li><a href="../pag/login_aluno.html">Aluno</a></li>
+        <li><a href="index.html">Sair</a></li>
+      </ul>
+      <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+</header>
+<body>
+  
+  <div class="container">
+    <h1 class="mt-4">Cadastro de Turma</h1>
+    <form>
+      <div class="mb-3">
+        <label for="cursoNome" class="form-label">Nome da Turma</label>
+        <input type="text" class="form-control" id="cursoNome" placeholder="Digite o nome da turma">
+      </div>
+      <div class="mb-3">
+        <label for="cursoNome" class="form-label">Professor</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Escolha o professor:</option>
+          <option value="1">João</option>
+          <option value="2">Carlos</option>
+          <option value="3">Maria</option>
+          <option value="4">José</option>
+          <option value="5">Karina</option>
+          <option value="6">Marina</option>
+        </select>
+        <br>
+        <label for="cursoNome" class="form-label">Curso</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Escolha o curso:</option>
+          <option value="1">Curso 1</option>
+          <option value="2">Curso 2</option>
+          <option value="3">Curso 3</option>
+          <option value="4">Curso 4</option>
+          <option value="5">Curso 5</option>
+          <option value="6">Curso 6</option>
+        </select>
+        <br>
+      <div class="mb-3">
+        <label for="descricao" class="form-label">Alunos</label>
+        <textarea class="form-control" id="descricao" rows="3" placeholder="Digite o nome dos alunos"></textarea>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button type="button" class="btn btn-primary me-2">Salvar</button>
+        <button type="button" class="btn btn-success me-2">Novo</button>
+        <button type="button" class="btn btn-warning me-2">Editar</button>
+        <button type="button" class="btn btn-danger">Excluir</button>
+      </div>
+    </form>
+</div>
+</div>
+</div>
+    
+<footer style="background-color: rgb(26, 1, 84);" class="page-footer font-small blue text-center p-3">
+  <div>
+  <a href="www.educati.com.br" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> &copy; Copyright: Educati Cursos Tecnicos - TDM </a>
+</div>
+</footer>
+
+  
+     
+  
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>

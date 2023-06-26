@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:  rgb(1, 26, 84);
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fdfbfb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    margin-top: 10px;
+}
+
+
+.login-form input{
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+
+footer {
+    background-color: rgb(26, 1, 84);
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+
+.login-form {
+    display: inline-block;
+    font-size: 50px;
+    color: #161515;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    cursor:pointer;
+   
+   
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(1, 26, 84);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+h3 {
+    font-size: 25px;
+    color: #161515;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/*Menu responsivo para dispositivos móveis*/
+
+@media screen and (max-width: 600px) {
+    nav ul.menu-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+        /*estilo menu expansivel*/
+
+        .menu-expanded {
+            display: flex;
+        }
+    }
+
+
+    .menu-icon {
+        display:none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .menu-icon span {
+        height: 4px;
+        width: 60px;
+        background-color: #fbfafa;
+        margin-bottom: 5px;
+    }
+    

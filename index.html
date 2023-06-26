@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de entrada - Educati</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">  <!--cabecalho do site-->
+                <img src="img/logoeducati.png" alt="logo Educati">
+            </div>
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pag/login_prof.html">Professor</a></li>
+                    <li><a href="pag/login_aluno.html">Aluno</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="container">
+            <div class="logo">
+            
+                <img src="img/logoeducati.png" alt="educati logo">
+            
+                <form class="login-form d-flex justify-content-center " method="post" action="#">
+                    <h3>Entrar</h3>
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br>
+                    <input type="password" name="password" placeholder="Senha" required>
+                </form>
+                <form>
+                    <input type="checkbox" id="veiculo1" value="Bicicleta">Lembre-se de mim.<br>
+                </form>
+                <br>
+                <form>
+                    <input type="radio" id="sex" value="male" class="btn btn-dark"><a href="pag/login_aluno.html">Aluno</a>
+                    <input type="radio" id="sex" value="female" class="btn btn-primary"><a href="pag/login_prof.html">Professor</a>
+                    <input type="radio" id="sex" value="female" class="btn btn-primary"><a href="pag/login_adm.html">Administrador</a>
+                </form>
+                <br> 
+                <button class="button" type="submit">Entrar</button>  
+                <br><br>
+                <p class="signup-link">Criar uma conta
+                    <a href="#">Esqueci minha senha</a></p>
+            </div>
+        </div>
+        <br><br>
+        <footer>
+            <p>Desenvolvido by: Empresa TDM &copysr;</p>
+        </footer>
+    </body>
+</html>
